@@ -1,6 +1,6 @@
 <template name="workout_item">
-    <div class="ui grid aWorkout" id="{{this._id}}">
-       <span class="left">{{this.name}} by {{this.owner}}</span>
+    <div class="ui grid aWorkout" id="{{this.workout._id}}">
+       <span class="left">{{this.workout.name}} by {{this.workout.owner}}</span>
         <button class="delete right">Delete &times;</button>
     </div>
 </template>
