@@ -1,0 +1,8 @@
+Loose Ends:
+
+footer template
+letsWorkout template
+
+Why isn't the image loading?
+
+in body.js, we've got currentWorkout.  How do we populate it? Access it from other ...sections of the body?
